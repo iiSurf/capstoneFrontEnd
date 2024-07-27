@@ -1,0 +1,12 @@
+.homeContainer {
+    background-color: rgb(59, 135, 135);
+    color: black;
+}
+.header {
+    border-style: solid;
+    border-color: black;
+    border-width: 15px;
+}
+.header a {
+    color: black;
+}
