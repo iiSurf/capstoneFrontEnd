@@ -1,11 +1,13 @@
 // src/pages/HomePage.js
 import React from "react";
 
-const HomePage = () => (
-  <div>
-    <h1>Welcome To The Home Page</h1>
-    <p>Welcome to the Breathing Skills App</p>
-  </div>
-);
+const HomePage = () => {
+  return (
+    <div>
+      <h1>Welcome To The Breathing Skills Application</h1>
+      <p>Watch, Learn, and practice many different breathing exercies.</p>
+    </div>
+  );
+};
 
 export default HomePage;
