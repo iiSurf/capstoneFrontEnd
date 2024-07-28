@@ -1,16 +1,11 @@
-import React, { useState, useEffect } from "react";
-import axios from 'axios';
-import '../styles/HomePage.css';
+// src/pages/HomePage.js
+import React from "react";
 
-function HomePage() {
-    return (
-
-
-        <>
-        <h1>Welcome To The Home Page</h1>
-        <dev className="homeContainer"></dev>
-        </>
-    )
-}
+const HomePage = () => (
+  <div>
+    <h1>Welcome To The Home Page</h1>
+    <p>Welcome to the Breathing Skills App</p>
+  </div>
+);
 
 export default HomePage;
