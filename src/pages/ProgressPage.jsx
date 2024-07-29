@@ -19,9 +19,9 @@ const ProgressPage = () => {
     <>
       <h1>Your Progress Journey</h1>
       <ul>
-        {progress.map((item) => (
+        {progress.map((item) => {
           <li key={item.id}>{item.description}</li>
-        ))}
+})}
       </ul>
     </>
   );
