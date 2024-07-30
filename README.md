@@ -2,9 +2,9 @@
 > Capstone [BackEnd](https://github.com/iiSurf/capstoneBackEnd)
 
 
-# Breathing Skills App - Front End
+# Front End
 
-## Overview
+## Description
 
 This is the front-end part of the Breathing Skills App. This website helps users practice and track various breathing exercises. The app is built using React and interacts with a back-end server to manage goals, progress, and instructional videos. 
 
@@ -14,7 +14,7 @@ This is the front-end part of the Breathing Skills App. This website helps users
 - **Progress Page**: Work in progress - Users can view their progress over time.
 - **Videos Page**: Users can watch instructional videos related to breathing exercises.
 
-## Technologies Used
+## Tech Used
 
 - React
 - Axios for HTTP requests
