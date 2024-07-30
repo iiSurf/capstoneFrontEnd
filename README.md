@@ -38,4 +38,7 @@ This is the front-end part of the Breathing Skills App. This website helps users
 5. npm run dev
 
 > [!Note]
-> Remember only the goals page has full CRUD operations currently workin
+> Remember only the goals page has full CRUD operations currently working
+
+![user stories](./src/assets/userStories.png)
+![user stories](./src/assets/userStories2.png)
