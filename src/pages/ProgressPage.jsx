@@ -6,7 +6,7 @@ const ProgressPage = () => {
 
   useEffect(() => {
     axios
-      .get("/front/progress")
+      .get("http://localhost:5000/front/progress")
       .then((response) => {
         setProgress(response.data);
       })
@@ -19,12 +19,11 @@ const ProgressPage = () => {
     <>
       <h1>Your Progress Journey</h1>
       <ul>
-        {progress.map((item) => {
-          <li key={item.id}>{item.description}</li>
-})}
+        {progress.length > 0 ? progress.map((item) => {
+        return  <li key={item._id}>{item.duration}</li>
+}) : <p>Bienvenue</p> }
       </ul>
     </>
   );
 };
-
 export default ProgressPage;

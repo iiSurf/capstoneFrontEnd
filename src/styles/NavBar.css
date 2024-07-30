@@ -1,0 +1,13 @@
+header {
+    background-color: #4caf50;
+    padding: 1em;
+    text-align: center;
+}
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: dotted;
+}

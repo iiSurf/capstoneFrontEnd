@@ -6,11 +6,11 @@ const VideosPage = () => {
 
   useEffect(() => {
     axios
-      .get("/front/videos")
+      .get("http://localhost:5000/front/videos")
       .then((response) => {
         setVideos(response.data);
       })
-      .catch((error) => {
+      .catch((err) => {
         console.error("Error getting videos", err);
       });
   }, []);
@@ -19,21 +19,26 @@ const VideosPage = () => {
     <div>
       <h1>Breathing Skills</h1>
       <ul>
-        {videos.map((video) => (
-          <li key={video.id}>
-            <iframe
-              width="560"
-              height="315"
-              src={video.url}
-              title={video.title}
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            ></iframe>
-            <p>{video.title}</p>
-          </li>
-        ))}
+        {videos.length > 0 ? (
+          videos.map((video) => {
+            return (
+              <li key={video._id}>
+                <iframe
+                  width="560"
+                  height="315"
+                  src={video.url}
+                  title={video.title}
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  rel="noreferrer noopener"
+                  allowFullScreen
+                ></iframe>
+                <p>{video.description}</p>
+              </li>
+            );
+          })
+        ) : (
+          <p>Welcome</p>
+        )}
       </ul>
     </div>
   );

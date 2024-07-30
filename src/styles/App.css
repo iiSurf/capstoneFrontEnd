@@ -9,19 +9,12 @@ body {
   padding: 0;
   margin: 0;
   background-color: #ccf5b8;
+  color: black;
 }
 header {
   background-color: #ed5858d0;
   padding: 1em;
   text-align: center;
-}
-nav a {
-  margin: 0 15px;
-  color: white;
-  text-decoration: none;
-}
-nav a:hover {
-  text-decoration: underline;
 }
 h1 {
   color:#303030;
@@ -31,7 +24,7 @@ ul {
   padding: 0;
 }
 li {
-  background-color: white;
+  background-color: #ed5858d0;
   margin: 10px 0;
   padding: 10px;
   border-radius: 5px;

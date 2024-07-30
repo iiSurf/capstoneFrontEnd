@@ -7,7 +7,7 @@ const GoalsPage = () => {
 
   useEffect(() => {
     axios
-      .get("/front/goals")
+      .get("http://localhost:5000/front/goals")
       .then((response) => {
         setGoals(response.data);
       })
@@ -18,7 +18,7 @@ const GoalsPage = () => {
 
   const handleAddGoal = () => {
     axios
-      .post("/front/goals", { goal: newGoal })
+      .post("http://localhost:5000/front/goals", { goal: newGoal })
       .then((response) => {
         setGoals([...goals, response.data]);
         setNewGoal("");
@@ -32,9 +32,9 @@ const GoalsPage = () => {
     <div>
       <h1>Your Goals</h1>
       <ul>
-        {goals.map((goal) => {
-          <li key={goal._id}>{goal.goal}</li>;
-        })}
+        {goals.length > 0 ? goals.map((goal) => {
+        return  <li key={goal._id}>{goal.goal}{goal.startDate}</li>;
+        }) : <p>Loading...</p>}
       </ul>
       <input
         type="text"
