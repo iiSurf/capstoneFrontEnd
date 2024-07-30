@@ -19,6 +19,7 @@ This is the front-end part of the Breathing Skills App. This website helps users
 - React
 - Axios for HTTP requests
 - CSS for styling
+- API Used [type.fit](https://type.fit/api/quotes)
 
 ## How to use
 
