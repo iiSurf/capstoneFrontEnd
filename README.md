@@ -26,7 +26,7 @@ This is the front-end part of the Breathing Skills App. This website helps users
 
 1. Clone the repository:
 
-   git clone https://github.com/your-username/breathing-skills-frontend.git
+   git clone from https://github.com/iiSurf/capstoneFrontEnd
 
 2. cd breathing-skills-frontend
 
