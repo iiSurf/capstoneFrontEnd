@@ -22,7 +22,7 @@ const VideosPage = () => {
 
     // Calling the fetchVideos function
     fetchVideos();
-  }, []); // Dependency array with nothing in it makes this run only once
+  }, []); // Dependency array with nothing in it makes this run only once.
 
   return (
     <div>
