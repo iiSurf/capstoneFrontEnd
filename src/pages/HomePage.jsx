@@ -5,6 +5,7 @@ import axios from 'axios';
 const HomePage = () => {
   const [quote, setQuote] = useState("");
 
+  //  API axios getting quotes without needing an api key
   useEffect(() => {
     const fetchQuote = async () => {
       try {
@@ -16,7 +17,7 @@ const HomePage = () => {
         console.error('Error fetching the quote', error);
       }
     };
-  
+  // Display quote from API
     fetchQuote();
   }, []);
 

@@ -7,7 +7,7 @@ const NavBar = () => {
   return (
   <header>
     <nav>
-      // links for navbar to go to other pages on website
+       {/* links for navbar to go to other pages on website */}
       <Link to="/">Home</Link>
       <Link to="/progress">Progress</Link>
       <Link to="/videos">Videos</Link>
