@@ -11,6 +11,6 @@
 .nav a:hover {
     text-decoration: dotted;
 } */
-.navbar-logo .logo {
-    max-height: 50px;
+.logo {
+    max-height: 200px;
 }
