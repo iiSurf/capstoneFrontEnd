@@ -24,7 +24,9 @@ const HomePage = () => {
   return (
     <div>
       <h1>Welcome To The Breathing Skills Application</h1>
+      <h2>Test for placement above paragraph tag</h2>
       <p>Watch, Learn, and practice many different breathing exercies.</p>
+      <h3>Test for below paragraph tag</h3>
       <p>{quote}</p>
     </div>
   );
