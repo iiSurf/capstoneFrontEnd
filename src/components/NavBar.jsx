@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 import placeholderLogo from "../assets/placeholderLogo.svg";
+import { Button } from "./Button";
 import "../styles/NavBar.css";
 
 const NavBar = () => {
@@ -20,7 +21,7 @@ const NavBar = () => {
     }
   };
 
-  window.addEventListener('resize', showButton);
+  window.addEventListener("resize", showButton);
 
   return (
     <>
@@ -69,7 +70,7 @@ const NavBar = () => {
                 className="nav-links"
                 onClick={closeMobileMenu}
               />
-              Sihn Up
+              Sign Up
             </li>
           </ul>
           {button && <Button buttonStyle="btn--outline">SIGN UP</Button>}
