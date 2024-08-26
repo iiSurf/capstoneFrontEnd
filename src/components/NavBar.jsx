@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
@@ -21,7 +21,11 @@ const NavBar = () => {
     }
   };
 
-  window.addEventListener("resize", showButton);
+  useEffect(() => {
+    showButton();
+    window.addEventListener("resize", showButton);
+    return () => window.removeEventListener("resize", showButton);
+  }, []);
 
   return (
     <>
@@ -37,40 +41,41 @@ const NavBar = () => {
           </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
-              <Link to="/" className="nav-links" onClick={closeMobileMenu} />
-              Home
+              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+                Home
+              </Link>
             </li>
             <li className="nav-item">
               <Link
                 to="/progress"
                 className="nav-links"
                 onClick={closeMobileMenu}
-              />
-              Progress
+              >
+                Progress
+              </Link>
             </li>
             <li className="nav-item">
-              <Link
-                to="/goals"
-                className="nav-links"
-                onClick={closeMobileMenu}
-              />
-              Goals
+              <Link to="/goals" className="nav-links" onClick={closeMobileMenu}>
+                Goals
+              </Link>
             </li>
             <li className="nav-item">
               <Link
                 to="/videos"
                 className="nav-links"
                 onClick={closeMobileMenu}
-              />
-              Videos
+              >
+                Videos
+              </Link>
             </li>
             <li className="nav-item">
               <Link
                 to="/sign-up"
                 className="nav-links"
                 onClick={closeMobileMenu}
-              />
-              Sign Up
+              >
+                Sign Up
+              </Link>
             </li>
           </ul>
           {button && <Button buttonStyle="btn--outline">SIGN UP</Button>}
