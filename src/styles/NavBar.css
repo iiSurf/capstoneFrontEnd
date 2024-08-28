@@ -26,6 +26,8 @@
   font-size: 2rem;
   display: flex;
   align-items: center;
+  margin-right: auto;
+  padding-right: 40px;
   /* position: absolute;
   top: 0;
   left: 0; */
@@ -34,13 +36,16 @@
 
 .nav-menu {
   display: flex;
+  align-items: center;
   list-style: none;
   text-align: center;
-  flex-direction: row;
+  margin-left: auto;
+  /* flex-direction: row; */
 }
 
 .nav-item {
   height: 80px;
+  padding: 0 10px;
 }
 
 .nav-links {
