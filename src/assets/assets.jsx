@@ -40,5 +40,86 @@ export const placeholder = [
     },
     {
         _id: 'aaaab',
-    }
+        name: 'image2',
+        description: 'skateboard',
+        price: 195,
+        image: [image2],
+        category: 'sports',
+        subCategory: 'people',
+        sizes: ['S', 'M', 'L'],
+        date: '1234567891023',
+        bestseller: true
+    },
+    {
+        _id: 'aaaac',
+        name: 'image3',
+        description: 'bubbles',
+        price: 225,
+        image: [image3],
+        category: 'play',
+        subCategory: 'people',
+        sizes: ['S', 'M', 'L'],
+        date: '1234567891023',
+        bestseller: false
+    },
+    {
+        _id: 'aaaad',
+        name: 'image4',
+        description: 'night out',
+        price: 120,
+        image: [image4],
+        category: 'play',
+        subCategory: 'people',
+        sizes: ['S', 'M', 'L'],
+        date: '1234567891023',
+        bestseller: true
+    },
+    {
+        _id: 'aaaae',
+        name: 'image5',
+        description: 'crowd',
+        price: 200,
+        image: [image1],
+        category: 'concert',
+        subCategory: 'people',
+        sizes: ['S', 'M', 'L'],
+        date: '1234567891023',
+        bestseller: true
+    },
+    {
+        _id: 'aaaa',
+        name: 'image1',
+        description: 'crowd',
+        price: 200,
+        image: [image1],
+        category: 'concert',
+        subCategory: 'people',
+        sizes: ['S', 'M', 'L'],
+        date: '1234567891023',
+        bestseller: true
+    },
+    {
+        _id: 'aaaa',
+        name: 'image1',
+        description: 'crowd',
+        price: 200,
+        image: [image1],
+        category: 'concert',
+        subCategory: 'people',
+        sizes: ['S', 'M', 'L'],
+        date: '1234567891023',
+        bestseller: true
+    },
+    {
+        _id: 'aaaa',
+        name: 'image1',
+        description: 'crowd',
+        price: 200,
+        image: [image1],
+        category: 'concert',
+        subCategory: 'people',
+        sizes: ['S', 'M', 'L'],
+        date: '1234567891023',
+        bestseller: true
+    },
 ]
