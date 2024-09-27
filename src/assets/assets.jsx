@@ -46,7 +46,7 @@ export const placeholder = [
         category: 'sports',
         subCategory: 'people',
         sizes: ['S', 'M', 'L'],
-        date: '1234567891023',
+        date: '1234567891123',
         bestseller: true
     },
     {
@@ -58,7 +58,7 @@ export const placeholder = [
         category: 'play',
         subCategory: 'people',
         sizes: ['S', 'M', 'L'],
-        date: '1234567891023',
+        date: '1234567891223',
         bestseller: false
     },
     {
@@ -70,7 +70,7 @@ export const placeholder = [
         category: 'play',
         subCategory: 'people',
         sizes: ['S', 'M', 'L'],
-        date: '1234567891023',
+        date: '1234567891323',
         bestseller: true
     },
     {
@@ -82,7 +82,7 @@ export const placeholder = [
         category: 'play',
         subCategory: 'people',
         sizes: ['S', 'M', 'L'],
-        date: '1234567891023',
+        date: '1234567891423',
         bestseller: true
     },
     {
@@ -94,7 +94,7 @@ export const placeholder = [
         category: 'play',
         subCategory: 'animals',
         sizes: ['S', 'M', 'L'],
-        date: '1234567891023',
+        date: '1234567891523',
         bestseller: true
     },
     {
@@ -106,7 +106,7 @@ export const placeholder = [
         category: 'play',
         subCategory: 'people',
         sizes: ['S', 'M', 'L'],
-        date: '1234567891023',
+        date: '1234567891623',
         bestseller: true
     },
     {
@@ -118,7 +118,7 @@ export const placeholder = [
         category: 'concert',
         subCategory: 'people',
         sizes: ['S', 'M', 'L'],
-        date: '1234567891023',
+        date: '1234567891723',
         bestseller: true
     },
     {
@@ -130,7 +130,7 @@ export const placeholder = [
         category: 'play',
         subCategory: 'people',
         sizes: ['S', 'M', 'L'],
-        date: '1234567891023',
+        date: '1234567891823',
         bestseller: true
     },
     {
@@ -142,7 +142,7 @@ export const placeholder = [
         category: 'play',
         subCategory: 'people',
         sizes: ['S', 'M', 'L'],
-        date: '1234567891023',
+        date: '1234567891923',
         bestseller: true
     },
     {
@@ -154,7 +154,7 @@ export const placeholder = [
         category: 'play',
         subCategory: 'people',
         sizes: ['S', 'M', 'L'],
-        date: '1234567891023',
+        date: '1234567892223',
         bestseller: true
     },
     {
@@ -166,7 +166,7 @@ export const placeholder = [
         category: 'play',
         subCategory: 'people',
         sizes: ['S', 'M', 'L'],
-        date: '1234567891023',
+        date: '1234567893323',
         bestseller: true
     },
     {
@@ -178,7 +178,7 @@ export const placeholder = [
         category: 'play',
         subCategory: 'people',
         sizes: ['S', 'M', 'L'],
-        date: '1234567891023',
+        date: '1234567894423',
         bestseller: true
     },
     {
@@ -190,7 +190,7 @@ export const placeholder = [
         category: 'play',
         subCategory: 'people',
         sizes: ['S', 'M', 'L'],
-        date: '1234567891023',
+        date: '1234567895523',
         bestseller: true
     },
     {
@@ -202,7 +202,7 @@ export const placeholder = [
         category: 'play',
         subCategory: 'people',
         sizes: ['S', 'M', 'L'],
-        date: '1234567891023',
+        date: '1234567896623',
         bestseller: false
     },
     {
@@ -214,7 +214,7 @@ export const placeholder = [
         category: 'play',
         subCategory: 'people',
         sizes: ['S', 'M', 'L'],
-        date: '1234567891023',
+        date: '1234567897723',
         bestseller: false
     },
     {
@@ -226,7 +226,7 @@ export const placeholder = [
         category: 'play',
         subCategory: 'people',
         sizes: ['S', 'M', 'L'],
-        date: '1234567891023',
+        date: '1234567898823',
         bestseller: false
     },
     {
@@ -238,7 +238,7 @@ export const placeholder = [
         category: 'play',
         subCategory: 'people',
         sizes: ['S', 'M', 'L'],
-        date: '1234567891023',
+        date: '1234567899923',
         bestseller: true
     },
     {
@@ -250,7 +250,7 @@ export const placeholder = [
         category: 'play',
         subCategory: 'people',
         sizes: ['S', 'M', 'L'],
-        date: '1234567891023',
+        date: '1234561191023',
         bestseller: true
     },
     {
@@ -262,7 +262,7 @@ export const placeholder = [
         category: 'play',
         subCategory: 'people',
         sizes: ['S', 'M', 'L'],
-        date: '1234567891023',
+        date: '1234562291023',
         bestseller: true
     },
     {
@@ -274,7 +274,7 @@ export const placeholder = [
         category: 'play',
         subCategory: 'people',
         sizes: ['S', 'M', 'L'],
-        date: '1234567891023',
+        date: '1234563391023',
         bestseller: false
     },
     {
@@ -286,7 +286,7 @@ export const placeholder = [
         category: 'play',
         subCategory: 'people',
         sizes: ['S', 'M', 'L'],
-        date: '1234567891023',
+        date: '1234564491023',
         bestseller: false
     },
     {
@@ -298,7 +298,7 @@ export const placeholder = [
         category: 'play',
         subCategory: 'people',
         sizes: ['S', 'M', 'L'],
-        date: '1234567891023',
+        date: '1234565591023',
         bestseller: false
     },
     {
@@ -310,7 +310,7 @@ export const placeholder = [
         category: 'play',
         subCategory: 'people',
         sizes: ['S', 'M', 'L'],
-        date: '1234567891023',
+        date: '1234566691023',
         bestseller: true
     },
     {
@@ -322,7 +322,7 @@ export const placeholder = [
         category: 'play',
         subCategory: 'people',
         sizes: ['S', 'M', 'L'],
-        date: '1234567891023',
+        date: '1234567791023',
         bestseller: false
     },
 ]
