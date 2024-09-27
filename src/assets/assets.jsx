@@ -325,6 +325,18 @@ export const placeholder = [
         date: '1234567791023',
         bestseller: false
     },
+        {
+        _id: 'aaaay',
+        name: 'image25',
+        description: 'games',
+        price: 180,
+        image: [image25],
+        category: 'play',
+        subCategory: 'people',
+        sizes: ['S', 'M', 'L'],
+        date: '1234567791023',
+        bestseller: false
+    },
 ]
 // fixing upload to github TEST
 // Please be fixed now, GitHub
