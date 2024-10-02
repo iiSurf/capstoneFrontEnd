@@ -338,6 +338,4 @@ export const placeholder = [
         bestseller: false
     },
 ]
-// fixing upload to github TEST
-// Please be fixed now, GitHub
-// I hope it will be fixed now...
+// Please upload to github pleeeeease work
