@@ -24,7 +24,9 @@ import image23 from './assets/image23.jpg';
 import image24 from './assets/image24.jpg';
 import image25 from './assets/image25.jpg';
 
-export const placeholder = [
+
+
+export const products = [
     {
         _id: 'aaaa',
         name: 'image1',
