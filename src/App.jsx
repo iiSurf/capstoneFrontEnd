@@ -1,10 +1,10 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from './pages/Home';
-// import About from './pages/About';
-// import Contact from './pages/Contact';
-// import Login from './pages/Login';
-// import Game from './pages/Game';
-// import BoxBreathing from './pages/BoxBreathing';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import Login from './pages/Login';
+import Game from './pages/Game';
+import BoxBreathing from './pages/BoxBreathing';
 
 function App() {
 
